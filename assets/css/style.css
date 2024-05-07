@@ -1,0 +1,43 @@
+body {
+
+    background-image: url("https://res.cloudinary.com/dxgyqdkdz/image/upload/v1715041599/wallpaperflare.com_wallpaper_pizyfl.jpg");
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.place {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.place img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.place h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.place p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
